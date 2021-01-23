@@ -1,0 +1,56 @@
+//RISO skins
+AddCharModel(280, 25001, "skins\asyalierkekpd1.dff", "skins\asyalierkekpd1.txd");
+AddCharModel(280, 25002, "skins\asyalierkekpd2.dff", "skins\asyalierkekpd2.txd");
+AddCharModel(280, 25003, "skins\asyalikadinpd1.dff", "skins\asyalikadinpd1.txd");
+AddCharModel(280, 25004, "skins\asyalikadinpd2.dff", "skins\asyalikadinpd2.txd");
+AddCharModel(280, 25006, "skins\beyazerkekasu1.dff", "skins\beyazerkekasu1.txd");
+AddCharModel(280, 25007, "skins\beyazerkekgnd1.dff", "skins\beyazerkekgnd1.txd");
+AddCharModel(280, 25008, "skins\beyazerkekgnd2.dff", "skins\beyazerkekgnd2.txd");
+AddCharModel(280, 25009, "skins\beyazerkekmetro.dff", "skins\beyazerkekmetro.txd");
+AddCharModel(280, 25010, "skins\beyazerkekmetro2.dff", "skins\beyazerkekmetro2.txd");
+AddCharModel(280, 25011, "skins\beyazerkekmetro3.dff", "skins\beyazerkekmetro3.txd");
+AddCharModel(280, 25012, "skins\beyazerkekpd1.dff", "skins\beyazerkekpd1.txd");
+AddCharModel(280, 25013, "skins\beyazerkekpd2.dff", "skins\beyazerkekpd2.txd");
+AddCharModel(280, 25014, "skins\beyazerkekpd3.dff", "skins\beyazerkekpd3.txd");
+AddCharModel(280, 25015, "skins\beyazkadinasu1.dff", "skins\beyazkadinasu1.txd");
+AddCharModel(280, 25016, "skins\beyazkadinmetro1.dff", "skins\beyazkadinmetro1.txd");
+AddCharModel(280, 25017, "skins\beyazkadinmetro2.dff", "skins\beyazkadinmetro2.txd");
+AddCharModel(280, 25018, "skins\beyazkadinpd1.dff", "skins\beyazkadinpd1.txd");
+AddCharModel(280, 25019, "skins\beyazkadinpd2.dff", "skins\beyazkadinpd2.txd");
+AddCharModel(280, 25020, "skins\beyazerkekmetro1.dff", "skins\beyazerkekmetro1.txd");
+AddCharModel(280, 25021, "skins\sarisinerkekpd1.dff", "skins\sarisinerkekpd1.txd");
+AddCharModel(280, 25022, "skins\sarisinerkekpd2.dff", "skins\sarisinerkekpd2.txd");
+AddCharModel(280, 25023, "skins\sarisinerkekpd3.dff", "skins\sarisinerkekpd3.txd");
+AddCharModel(280, 25024, "skins\sarisinkadinpd1.dff", "skins\sarisinkadinpd1.txd");
+AddCharModel(280, 25025, "skins\sarisinkadinpd2.dff", "skins\sarisinkadinpd2.txd");
+AddCharModel(280, 25026, "skins\siyaherkekmetro1.dff", "skins\siyaherkekmetro1.txd");
+AddCharModel(280, 25027, "skins\siyaherkekpd1.dff", "skins\siyaherkekpd1.txd");
+AddCharModel(280, 25028, "skins\siyaherkekasu.dff", "skins\siyaherkekasu.txd");
+AddCharModel(280, 25029, "skins\siyaherkekpd2.dff", "skins\siyaherkekpd2.txd");
+AddCharModel(280, 25030, "skins\siyahkadinasu.dff", "skins\siyahkadinasu.txd");
+AddCharModel(280, 25031, "skins\siyahkadinpd1.dff", "skins\siyahkadinpd1.txd");
+AddCharModel(280, 25032, "skins\siyahkadinpd2.dff", "skins\siyahkadinpd2.txd");
+//fd
+AddCharModel(280, 26000, "skins\beyazerkekfd.dff", "skins\beyazerkekfd.txd");
+AddCharModel(280, 26001, "skins\erkekbeyaztulum.dff", "skins\erkekbeyaztulum.txd");
+AddCharModel(280, 26002, "skins\erkeksiyahtulum.dff", "skins\erkeksiyahtulum.txd");
+AddCharModel(280, 26003, "skins\sarisinerkekfd.dff", "skins\sarisinerkekfd.txd");
+AddCharModel(280, 26004, "skins\siyaherkekfd.dff", "skins\siyaherkekfd.txd");
+AddCharModel(280, 26005, "skins\beyazkadinfd.dff", "skins\beyazkadinfd.txd");
+AddCharModel(280, 26006, "skins\siyahikadinfd.dff", "skins\siyahikadinfd.txd");
+AddCharModel(280, 26007, "skins\siyahikadintulum.dff", "skins\siyahikadintulum.txd");
+AddCharModel(280, 26008, "skins\beyazkadintulum.dff", "skins\beyazkadintulum.txd");
+
+//models
+AddSimpleModel(-1, 8330, -2001, "sapd.dff", "sapd.txd");
+AddSimpleModel(-1, 8330, -2002, "poster.dff", "poster.txd");
+AddSimpleModel(-1, 8330, -2003, "lspdlogo.dff", "lspdlogo.txd");
+AddSimpleModel(-1, 8330, -2004, "chopshop.dff", "chopshop.txd");
+AddSimpleModel(-1, 8330, -2005, "bahamas.dff", "bahamas.txd");
+AddSimpleModel(-1, 8330, -2006, "westmont.dff", "westmont.txd");
+AddSimpleModel(-1, 8330, -2007, "vanilla.dff", "vanilla.txd");
+
+//textdraw
+AddSimpleModel(-1,19379, -2100, "object.dff", "vw-logo.txd");
+
+

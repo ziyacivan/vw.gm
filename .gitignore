@@ -1,0 +1,12 @@
+
+announce.exe
+logs/errors.log
+logs/plugins/mysql.log
+samp-npc.exe
+logs/warnings.log
+logs/errors.log
+server_log.txt
+samp-server.exe
+errors.log
+mysql.log
+warnings.log

@@ -1,0 +1,172 @@
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x758A10F7 Module: (KERNELBASE.dll)
+
+Registers:
+EAX: 0xFFFFFFFE	EBX: 0x00000001	ECX: 0xFFFFFFFE	EDX: 0xFFFFFFFE
+ESI: 0xFFFFFFFF	EDI: 0x0000006B	EBP: 0x0019EF2C	ESP: 0x0019EF24
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x00000006   0x00000001   0x00000000   0x004061B4
++0010: 0xFFFFFFFE   0x004064FE   0x00000001   0x05F683CC
++0020: 0x00000010   0x0019F0B0   0x004065C5   0x05F6861C
++0030: 0x05EE83D8   0x00000010   0x00000000   0x04C6BE64
++0040: 0x0000001C   0x029A8E80   0x05F6861C   0x00000010
++0050: 0x00000010   0x004010B6   0x029A8E80   0x05EE83D8
++0060: 0x029A8E80   0x5C008F71   0x029A8E80   0x0000001C
++0070: 0x0019F120   0x05F683CC   0xF827E16A   0x00A0FA30
++0080: 0x029A8E80   0x00A0C0A4   0x7719131B   0x029A8E80
++0090: 0x00000000   0x00A0FD80   0x000B4550   0x0000001C
++00A0: 0x00000000   0x00000009   0x5BC08ACC   0x007EBD88
++00B0: 0x00000009   0x00000002   0x00000000   0x007EBD88
++00C0: 0x007EF169   0x00000000   0x00000001   0x004BAE08
++00D0: 0x0100DE71   0x0000026D   0x00000800   0x00000000
++00E0: 0x0019F009   0xC93D1401   0xE08F5740   0x2DCDCA43
++00F0: 0xEDEDAECC   0xA40584EC   0x4DECAD09   0x242C8F2D
++0100: 0x4C4DEC09   0x08246DAE   0xA18C6DAD   0xCCAE8C08
++0110: 0xAE08A42D   0x2E6CA980   0xC5952E0C   0x5BFD6E48
++0120: 0xCA68622D   0x71B6A91A   0xDB4DE7CF   0x6DFB396E
++0130: 0xEA18A8A6   0x0000FFFF   0x05F685E4   0x04C6BE64
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\samp-server.exe)
+ntdll.dll	A: 0x77150000 - 0x772F3000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x77050000 - 0x77140000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75750000 - 0x75964000	(C:\Windows\System32\KERNELBASE.dll)
+apphelp.dll	A: 0x6D0B0000 - 0x6D14F000	(C:\Windows\SYSTEM32\apphelp.dll)
+SHELL32.dll	A: 0x76A00000 - 0x76FB4000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x76270000 - 0x762EB000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x76420000 - 0x76540000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x75E60000 - 0x75FF6000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x75650000 - 0x75668000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x76100000 - 0x76123000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x751E0000 - 0x752BC000	(C:\Windows\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x6F820000 - 0x6F828000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x76140000 - 0x761FF000	(C:\Windows\System32\msvcrt.dll)
+WINMM.dll	A: 0x73A50000 - 0x73A78000	(C:\Windows\SYSTEM32\WINMM.dll)
+WS2_32.dll	A: 0x76000000 - 0x76063000	(C:\Windows\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x75120000 - 0x751E0000	(C:\Windows\System32\RPCRT4.dll)
+IMM32.DLL	A: 0x76FC0000 - 0x76FE5000	(C:\Windows\System32\IMM32.DLL)
+MSVCP120.dll	A: 0x5BF70000 - 0x5BFE1000	(C:\Windows\SYSTEM32\MSVCP120.dll)
+MSVCR120.dll	A: 0x5BE80000 - 0x5BF6E000	(C:\Windows\SYSTEM32\MSVCR120.dll)
+mysql.DLL	A: 0x5BE30000 - 0x5BE7E000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\mysql.DLL)
+MSVCP140.dll	A: 0x69E00000 - 0x69E71000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+log-core.dll	A: 0x5BD40000 - 0x5BD5A000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\log-core.dll)
+libmariadb.dll	A: 0x5BD60000 - 0x5BE2D000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\libmariadb.dll)
+VCRUNTIME140.dll	A: 0x6C460000 - 0x6C474000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+SHLWAPI.dll	A: 0x759A0000 - 0x759E5000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x75550000 - 0x7564A000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x75A80000 - 0x75AFA000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x763A0000 - 0x76416000	(C:\Windows\System32\sechost.dll)
+Secur32.dll	A: 0x74410000 - 0x7441A000	(C:\Windows\SYSTEM32\Secur32.dll)
+SSPICLI.DLL	A: 0x706D0000 - 0x706F8000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x743E0000 - 0x743EA000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+kernel.appcore.dll	A: 0x74550000 - 0x7455F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+napinsp.dll	A: 0x63000000 - 0x63011000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x62FE0000 - 0x62FF6000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x63BC0000 - 0x63BD0000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x6CA10000 - 0x6CA26000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x74FA0000 - 0x74FD2000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x73DC0000 - 0x73E12000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x6FB70000 - 0x6FC02000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x75970000 - 0x75977000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x637F0000 - 0x637FE000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x64F50000 - 0x64F58000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x5BC70000 - 0x5BCFE000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\pawncmd.DLL)
+streamer.DLL	A: 0x5BC00000 - 0x5BC67000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\streamer.DLL)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\sscanf.DLL)
+pawn-memory.DLL	A: 0x5BD30000 - 0x5BD3A000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\pawn-memory.DLL)
+pawnregex.DLL	A: 0x5BBC0000 - 0x5BBFC000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\pawnregex.DLL)
+bcrypt.dll	A: 0x75010000 - 0x75029000	(C:\Windows\System32\bcrypt.dll)
+bcryptPrimitives.dll	A: 0x75DA0000 - 0x75DFD000	(C:\Windows\System32\bcryptPrimitives.dll)
+
+--------------------------
+SA-MP Server: 0.3.DL-R1
+
+Exception At Address: 0x758A10F7 Module: (KERNELBASE.dll)
+
+Registers:
+EAX: 0xFFFFFFFE	EBX: 0x00000001	ECX: 0xFFFFFFFE	EDX: 0xFFFFFFFE
+ESI: 0xFFFFFFFF	EDI: 0x000000FE	EBP: 0x0019EF28	ESP: 0x0019EF20
+EFLAGS: 0x00010286
+
+Stack:
++0000: 0x00000006   0x00000001   0x00000000   0x004061B4
++0010: 0xFFFFFFFE   0x0040650C   0x00000001   0x00000001
++0020: 0x05FAF3CC   0x00000010   0x0019F0B0   0x004065C5
++0030: 0x05F2F3D8   0x05FAF61C   0x00000010   0x00000000
++0040: 0x04CBBE54   0x0000001C   0x02A58E80   0x05F2F3D8
++0050: 0x00000010   0x00000010   0x004010B6   0x02A58E80
++0060: 0x05FAF61C   0x02A58E80   0x5C008F71   0x02A58E80
++0070: 0x0000001C   0x0019F120   0x05FAF3CC   0x558B8D9B
++0080: 0x00A0FA30   0x02A58E80   0x00A0C0A4   0x7719131B
++0090: 0x02A58E80   0x00000000   0x00A0FD80   0x000B4550
++00A0: 0x0000001C   0x00000000   0x00000009   0x5BC08ACC
++00B0: 0x0070CCE0   0x00000009   0x00000002   0x00000000
++00C0: 0x0070CCE0   0x0070C161   0x00000000   0x00000001
++00D0: 0x004BAE08   0x0100C29D   0x0000026D   0x00000800
++00E0: 0x00000000   0x0019F009   0xC93D1401   0xE08F5740
++00F0: 0x2DCDCA43   0xEDEDAECC   0xA40584EC   0x4DECAD09
++0100: 0x242C8F2D   0x4C4DEC09   0x08246DAE   0xA18C6DAD
++0110: 0xCCAE8C08   0xAE08A42D   0x2E6CA980   0xC5952E0C
++0120: 0x5BFD6E48   0xCA68622D   0x71B6A91A   0xDB4DE7CF
++0130: 0x6DFB396E   0x7B6065B9   0x0000FFFF   0x05FAF5E4
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x0051F000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\samp-server.exe)
+ntdll.dll	A: 0x77150000 - 0x772F3000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x77050000 - 0x77140000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x75750000 - 0x75964000	(C:\Windows\System32\KERNELBASE.dll)
+apphelp.dll	A: 0x6D0B0000 - 0x6D14F000	(C:\Windows\SYSTEM32\apphelp.dll)
+SHELL32.dll	A: 0x76A00000 - 0x76FB4000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x76270000 - 0x762EB000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x76420000 - 0x76540000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x75E60000 - 0x75FF6000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x75650000 - 0x75668000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x76100000 - 0x76123000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x751E0000 - 0x752BC000	(C:\Windows\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x6F820000 - 0x6F828000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x76140000 - 0x761FF000	(C:\Windows\System32\msvcrt.dll)
+WS2_32.dll	A: 0x76000000 - 0x76063000	(C:\Windows\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x75120000 - 0x751E0000	(C:\Windows\System32\RPCRT4.dll)
+WINMM.dll	A: 0x73A50000 - 0x73A78000	(C:\Windows\SYSTEM32\WINMM.dll)
+IMM32.DLL	A: 0x76FC0000 - 0x76FE5000	(C:\Windows\System32\IMM32.DLL)
+MSVCR120.dll	A: 0x5BE80000 - 0x5BF6E000	(C:\Windows\SYSTEM32\MSVCR120.dll)
+MSVCP120.dll	A: 0x5BF70000 - 0x5BFE1000	(C:\Windows\SYSTEM32\MSVCP120.dll)
+mysql.DLL	A: 0x5BE30000 - 0x5BE7E000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\mysql.DLL)
+VCRUNTIME140.dll	A: 0x6C460000 - 0x6C474000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+log-core.dll	A: 0x5BE10000 - 0x5BE2A000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\log-core.dll)
+libmariadb.dll	A: 0x5BD40000 - 0x5BE0D000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\libmariadb.dll)
+SHLWAPI.dll	A: 0x759A0000 - 0x759E5000	(C:\Windows\System32\SHLWAPI.dll)
+CRYPT32.dll	A: 0x75550000 - 0x7564A000	(C:\Windows\System32\CRYPT32.dll)
+ADVAPI32.dll	A: 0x75A80000 - 0x75AFA000	(C:\Windows\System32\ADVAPI32.dll)
+sechost.dll	A: 0x763A0000 - 0x76416000	(C:\Windows\System32\sechost.dll)
+MSVCP140.dll	A: 0x69E00000 - 0x69E71000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+Secur32.dll	A: 0x74410000 - 0x7441A000	(C:\Windows\SYSTEM32\Secur32.dll)
+SSPICLI.DLL	A: 0x706D0000 - 0x706F8000	(C:\Windows\SYSTEM32\SSPICLI.DLL)
+CRYPTBASE.DLL	A: 0x743E0000 - 0x743EA000	(C:\Windows\SYSTEM32\CRYPTBASE.DLL)
+kernel.appcore.dll	A: 0x74550000 - 0x7455F000	(C:\Windows\SYSTEM32\kernel.appcore.dll)
+napinsp.dll	A: 0x63000000 - 0x63011000	(C:\Windows\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x62FE0000 - 0x62FF6000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x63BC0000 - 0x63BD0000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x6CA10000 - 0x6CA26000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x74FA0000 - 0x74FD2000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+mswsock.dll	A: 0x73DC0000 - 0x73E12000	(C:\Windows\System32\mswsock.dll)
+DNSAPI.dll	A: 0x6FB70000 - 0x6FC02000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x75970000 - 0x75977000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x637F0000 - 0x637FE000	(C:\Windows\System32\winrnr.dll)
+rasadhlp.dll	A: 0x64F50000 - 0x64F58000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x5BC70000 - 0x5BCFE000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\pawncmd.DLL)
+streamer.DLL	A: 0x5BC00000 - 0x5BC67000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\streamer.DLL)
+sscanf.DLL	A: 0x10000000 - 0x1000E000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\sscanf.DLL)
+pawn-memory.DLL	A: 0x5BD30000 - 0x5BD3A000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\pawn-memory.DLL)
+pawnregex.DLL	A: 0x5BBC0000 - 0x5BBFC000	(C:\Users\wvund\Documents\GitHub\vinewood-roleplay\plugins\pawnregex.DLL)
+bcrypt.dll	A: 0x75010000 - 0x75029000	(C:\Windows\System32\bcrypt.dll)
+bcryptPrimitives.dll	A: 0x75DA0000 - 0x75DFD000	(C:\Windows\System32\bcryptPrimitives.dll)
